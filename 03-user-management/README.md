@@ -47,11 +47,11 @@ passwd username
   ```
 - **Lock a user account**
   ```bash
-  passwd -l username
+  passwd -L username
   ```
 - **Unlock a user account**
   ```bash
-  passwd -u username
+  passwd -U username
   ```
 
 ## Modifying Users
@@ -94,11 +94,24 @@ usermod -aG groupname username
 ```bash
 groups username
 ```
+### To Delete Group
+```bash
+groupdel groupname
+
+#for focefully delete
+
+groupdel -f groupname
+```
 
 ### Changing Primary Group
 ```bash
 usermod -g new_primary_group username
 ```
+### To Remove user from the primary group
+```bash
+Need to use <Changing Primary Group> command with new user and need to delete that user.
+```
+
 
 ## Sudo Access and Privilege Escalation
 ### Adding a User to Sudo Group
