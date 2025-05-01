@@ -89,7 +89,10 @@ groupadd groupname
 ```bash
 usermod -aG groupname username
 ```
-
+### Removing User from Groups
+```bash
+usermod -rG groupname username
+```
 ### Viewing Group Memberships
 ```bash
 groups username
