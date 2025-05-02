@@ -6,11 +6,12 @@
 3. **`pwd`** – Prints the current working directory.
 4. **`mkdir new_folder`** – Creates a new directory.
 5. **`rmdir empty_folder`** – Removes an empty directory.
-6. **`rm file.txt`** – Deletes a file.
-7. **`rm -r folder`** – Deletes a folder and its contents.
-8. **`cp file1.txt file2.txt`** – Copies a file.
-9. **`cp -r dir1 dir2`** – Copies a directory recursively.
-10. **`mv old_name new_name`** – Moves or renames a file or directory.
+6. **`touch file_name`** – To create a empty file.
+7. **`rm file.txt`** – Deletes a file.
+8. **`rm -r folder`** – Deletes a folder and its contents.
+9. **`cp file1.txt file2.txt`** – Copies a file.
+10. **`cp -r dir1 dir2`** – Copies a directory recursively.
+11. **`mv old_name new_name`** – Moves or renames a file or directory.
 
 ### File Viewing and Editing
 11. **`cat file.txt`** – Displays file content.
@@ -20,7 +21,7 @@
 15. **`head -n 10 file.txt`** – Displays the first 10 lines of a file.
 16. **`tail -n 10 file.txt`** – Displays the last 10 lines of a file.
 17. **`nano file.txt`** – Opens a simple text editor.
-18. **`vi file.txt`** – Opens a powerful text editor.
+18. **`vi file.txt or vim file.txt `** – Opens a powerful text editor.
 19. **`echo 'Hello' > file.txt`** – Writes text to a file, overwriting existing content.
 20. **`echo 'Hello' >> file.txt`** – Appends text to a file without overwriting.
 
